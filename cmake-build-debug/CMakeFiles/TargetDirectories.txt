@@ -1,0 +1,5 @@
+/home/kirill/lapsizm/sam_json/cmake-build-debug/CMakeFiles/demo.dir
+/home/kirill/lapsizm/sam_json/cmake-build-debug/CMakeFiles/tests.dir
+/home/kirill/lapsizm/sam_json/cmake-build-debug/CMakeFiles/test.dir
+/home/kirill/lapsizm/sam_json/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kirill/lapsizm/sam_json/cmake-build-debug/CMakeFiles/rebuild_cache.dir
