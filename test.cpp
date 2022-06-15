@@ -1,7 +1,7 @@
 #include "json.h"
 #include <gtest/gtest.h>
 #include <fstream>
-
+#include <iostream>
 TEST(JSON, jTest){
     std::ifstream fin("../test_file3.txt");
     Document doc = Load(fin);
@@ -22,5 +22,6 @@ TEST(JSON, jTest){
     EXPECT_EQ(temp->first, "question");
     EXPECT_EQ(temp->second.IsBool(), true);
     EXPECT_EQ(temp->second.AsBool(), true);
+    fin.close();
 }
 
