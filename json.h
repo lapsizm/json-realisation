@@ -1,4 +1,6 @@
-#pragma once
+#ifndef INCLUDE_JSON_H_
+#define INCLUDE_JSON_H_
+
 #include <ostream>
 #include <istream>
 #include <string>
@@ -450,3 +452,4 @@ void Print(const Document &doc, std::ostream &output) {
 }
 
 
+#endif // INCLUDE_JSON_H_
